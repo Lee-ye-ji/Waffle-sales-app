@@ -1,22 +1,29 @@
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
+// path 모듈 불러오기
+const path = require('path');
 
 const app = express();
 app.use(express.json())
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 app.use(cors({
   origin: 'http://localhost:3000',
   credentials: true
 }))
 
+// 리액트 정적 파일 제공
+app.use(express.static(path.join(__dirname, './client/build')));
+
+// 라우트 설정
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname+'./client/build/index.html'));
+});
+
 // use middleware to serve static images
 app.use(express.static('public'))
 
-// read data from file
-// const travelDataRaw = fs.readFileSync('./server/travel.json', 'utf-8'); 
-// const travelData = JSON.parse(travelDataRaw);
 const ProductDataRaw = fs.readFileSync('./server/waffle.json', 'utf-8'); 
 const productData = JSON.parse(ProductDataRaw);
 
