@@ -1,0 +1,22 @@
+{
+    "waffle": [
+        {
+            "name": "Normal waffle",
+            "imagePath": "/images/nomal.png",
+            "price": 5000,
+            "description": "바삭한 와플"
+        },
+        {
+            "name": "Gelato waffle",
+            "imagePath": "/images/gelato.png",
+            "price": 6000,
+            "description": "아이스크림 와플"
+        },
+        {
+            "name": "Set Menu",
+            "imagePath": "/images/set.png",
+            "price": 6500,
+            "description": "Normal Waffle + Coffee"
+        }
+    ]
+}

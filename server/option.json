@@ -1,0 +1,60 @@
+{
+    "cream": [
+        {
+            "name": "Vanila",
+            "description": "Vanila"
+        },
+        {
+            "name": "Cheese",
+            "description": "Cheese"
+        },
+        {
+            "name": "Green tea",
+            "description": "Green tea"
+        },
+        {
+            "name": "Yogurt",
+            "description": "Yogurt"
+        },
+        {
+            "name":  "Mango",
+            "description":  "Mango"
+        },
+        {
+            "name": "Blueberry yougurt",
+            "description": "Blueberry yougurt"
+        },
+        {
+            "name": "Mandarin",
+            "description": "Mandarin"
+        },
+        {
+            "name": "Choco Vanlia",
+            "description": "Choco Vanlia"
+        },
+        {
+            "name": "Chcolate",
+            "description": "Chcolate"
+        }
+    ],
+    "topping": [
+        {
+            "name":  "Strawberry"
+        },
+        {
+            "name":  "Blueberry"
+        },
+        {
+            "name":  "Mango"
+        },
+        {
+            "name":  "Chocochip"
+        },
+        {
+            "name":  "Banana"
+        },
+        {
+            "name":  "CheeseCake"
+        }
+    ]
+}
