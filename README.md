@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Waffle-sales-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[따라하며 배우는 리액트 테스트 - 인프런 | 강의](https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%85%8C%EC%8A%A4%ED%8A%B8)
 
-## Available Scripts
+**위 영상을 보면서 개발 시 리액트 테스트가 왜 중요하고, 어디에 쓰는지 궁금해서 강의를 참고하며 만든 프로젝트 입니다.**
 
-In the project directory, you can run:
+## Deploy
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 테스트를 하는 이유는 무엇일까?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> 안정적인 어플리케이션을 만들기 위해서이다!!!
+> 
 
-### `npm test`
+즉, 사람은 완벽하게 개발을 하지 못하기에 더 빠르게 오류를 잡기 위해서 테스팅을 한다
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 테스팅으로 얻는 이점은?
 
-### `npm run build`
+1. 디버깅 시간을 단축! 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 만약 데이터가 잘못 나왔다면 그것이 UI의 문제인지
+DB의 문제인지등 전부 테스트를 해봐서 찾아야 하는데 테스팅 환경이 구축되
+어있다면 자동화 된 유닛 테스팅으로 특정 버그를 쉽게 찾아 낼 수있다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. 더욱 안정적인 어플리케이션! 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 많은 테스트 코드와 함께 작성된 코드의 어플리케이션이 되기 때문에 훨씬 안정적인 어플리케이션이 된다.
 
-### `npm run eject`
+3. 이밖에도 재설계 시간의 단축
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 추가로 무언가를 더 구현해야 할 때 더 용이하게 할 수 있는 등의 이점들이 있다.
