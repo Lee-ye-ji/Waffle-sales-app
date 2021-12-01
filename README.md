@@ -5,7 +5,7 @@
 **위 영상을 보면서 개발 시 리액트 테스트가 왜 중요하고, 어디에 쓰는지 궁금해서 강의를 참고하며 만든 프로젝트 입니다.**
 
 ## Deploy
-
+![ezgif com-gif-maker (28)](https://user-images.githubusercontent.com/59958929/144188041-9dc7d09a-7950-4a4c-97ff-a79332e2f6b7.gif)
 
 ## 테스트를 하는 이유는 무엇일까?
 
